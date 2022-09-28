@@ -1,0 +1,138 @@
+/* GLOBAL STYLES */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+}
+
+/* LAYOUT STYLES */
+
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+}
+
+.nft-component {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  width: 350px;
+  height: 596px;
+  box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.09);
+}
+
+.nft-img-wrapper {
+  position: relative;
+}
+
+.nft-img-wrapper {
+  width: 302px;
+  height: 302px;
+  margin: 0 auto;
+  margin-top: 24px;
+  background-image: url(./images/image-equilibrium.jpg);
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.nft-img-hover {
+  width: 302px;
+  height: 302px;
+  margin: 0 auto;
+  margin-top: 24px;
+  opacity: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.nft-img-hover:hover {
+  opacity: 1;
+  background-image: linear-gradient(
+      hsla(178, 100%, 50%, 0.5),
+      hsla(178, 100%, 50%, 0.5)
+    ),
+    url(./images/image-equilibrium.jpg);
+  background-size: cover;
+  cursor: pointer;
+}
+
+.nft-component-content-wrapper {
+  width: 302px;
+  margin: 0 auto;
+}
+.nft-details {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  margin-bottom: 16px;
+}
+
+.price,
+.date,
+.nft-author {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.nft-author {
+  gap: 16px;
+}
+.nft-author-profile-img {
+  width: 36px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+/* TYPOGRAPHY STYLES */
+
+.nft-component-heading {
+  margin-top: 24px;
+  font-weight: 600;
+}
+
+.nft-component-heading:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.nft-component-description {
+  margin-top: 16px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+.price {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+.date {
+  color: hsl(215, 51%, 70%);
+}
+
+.nft-auth-name {
+  color: hsl(0, 0%, 100%);
+}
+
+.nft-auth-name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.nft-author-description {
+  color: hsl(215, 51%, 70%);
+}
