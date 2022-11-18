@@ -1,7 +1,6 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
 
@@ -12,8 +11,6 @@
 ## Overview
 
 Simple nft-componentm, made with basic html and css.
-
-### Screenshot
 
 ### Links
 
