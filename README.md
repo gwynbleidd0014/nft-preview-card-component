@@ -14,7 +14,7 @@ Simple nft-componentm, made with basic html and css.
 
 ### Links
 
-- Live Site URL: [Click to see nft-component page](https://your-live-site-url.com)
+- Live Site URL: [Click to see nft-component page](https://gwynbleidd0014.github.io/nft-preview-card-component/)
 
 ## My process
 
